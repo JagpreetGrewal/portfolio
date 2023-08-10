@@ -13,62 +13,56 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/jagpreet-g-587977105/`,
     // Content of the About Me section
-    about: `I am a SFU Engineering Co-op Student, in my final year of undergrad. In the future, I plan on completing a Master's degree in Business or in a Big Data field - right now, I am eager to get into the workplace. I have previous co-op experience with Microserve, where I worked as a Deployment Technician for eight months. 
-            Hobbies: I like reading and travelling. I am a part of SFU's book club and I plan on travelling around North America once I get my feet under me.`,
+    about: `Hello! I am a SFU Engineering Co-op Student in my final year of undergrad. I like reading, working out, and travelling. In the future, I plan on completing a Master's degree in Business or in a Big Data field - right now, I am eager to get into the workplace. I have previous co-op experience with Microserve, where I worked as a Deployment Technician for eight months.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: 'Devfolio',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
+          'I forked Devfolio to build this website. It is a zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS.',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'KickPro',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          `I designed a dynamic, human-tracking soccer training system with a team of engineers. I contributed Python code to track the positions of players and goals, and to implement the GUI.
+          I was also responsible for configuring micro-controllers such as the Raspberry Pi and Nvidia Jetson Nano.`,
+        link: 'https://github.com/minhphat97/Capstone/tree/Henry',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Yet Another Storage Engine',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          `Worked diligently for several months to implement a simple database engine. I produced a Buffer Manager, Log, Lock, and many other modules in C++. 
+          No link is provided due to the stipulations of the project.`,
+        link:``,
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Microserve',
+        description: 'Deployment Technician, January 2021 - August 2021',
+        link:``,
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Software',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          `C++, C, Python, ReactJS, Javascript, CMake, Azure, SQLite, VHDL, Windows, Linux, Docker, VMwar`,
+        link:``,
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Hardware',
+        description: `Soldering, PCB Board assembly, FPGAs, DMMs, Power Supplies, Oscilloscopes, Function Generators, Breadboard, Sensors, Raspberry Pi, Nvidia Jetson Nano`,
+        link:``,
       },
       {
-        name: 'Other',
+        name: 'Programs',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          `Word, Excel, PowerPoint, Visual Studio Code, Visual Studio, Adobe Photoshop, MATLAB, Quartus, ModelSim-Altera`,
+        link:``,
       },
     ],
   },
