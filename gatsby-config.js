@@ -13,7 +13,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/jagpreet-g-587977105/`,
     // Content of the About Me section
-    about: `Hello! I am a SFU Computer Engineering Student in my final year of undergrad. I like reading, working out, and travelling. In the future, I plan on completing a Master's degree in Business or in a Big Data field - right now, I am eager to get into the workplace. I have previous co-op experience with Sierra Wireless and Microserve, where I worked for eight months each.`,
+    about: `Hello! I am a SFU Computer Engineering student in my final year of undergrad. I like reading, working out, and travelling. In the future, I plan on completing a Master's degree in Business or in a Big Data field - right now, I am eager to get into the workplace. I have previous co-op experience with Sierra Wireless and Microserve, where I worked for eight months each.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
