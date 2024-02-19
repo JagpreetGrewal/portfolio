@@ -5,15 +5,15 @@ module.exports = {
     // Your Name
     name: 'Jagpreet Grewal',
     // Main Site Title
-    title: `Jagpreet Grewal | SFU Engineering Co-op Student`,
+    title: `Jagpreet Grewal | SFU Computer Engineering`,
     // Description that goes under your name in main bio
-    description: `Seeking an internship for September 2023.`,
+    description: `Available to work May 2024 onwards.`,
     // Optional: Github account URL
     github: `https://github.com/JagpreetGrewal`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/jagpreet-g-587977105/`,
     // Content of the About Me section
-    about: `Hello! I am a SFU Engineering Co-op Student in my final year of undergrad. I like reading, working out, and travelling. In the future, I plan on completing a Master's degree in Business or in a Big Data field - right now, I am eager to get into the workplace. I have previous co-op experience with Microserve, where I worked as a Deployment Technician for eight months.`,
+    about: `Hello! I am a SFU Computer Engineering Student in my final year of undergrad. I like reading, working out, and travelling. In the future, I plan on completing a Master's degree in Business or in a Big Data field - right now, I am eager to get into the workplace. I have previous co-op experience with Sierra Wireless and Microserve, where I worked for eight months each.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -22,6 +22,13 @@ module.exports = {
           'I forked Devfolio to build this website. It is a zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS.',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
+      {
+        name: 'Pathloss Project',
+        description:
+          `Alongside another co-op student, I designed a an application to calculate the pathloss in fixtures across various frequencies and ports.
+          The program interfaced with drivers in Python to control switches and write SCPI commands.`,
+        link: 'https://github.com/minhphat97/Capstone/tree/Henry',
+      },      
       {
         name: 'KickPro',
         description:
@@ -44,6 +51,11 @@ module.exports = {
         description: 'Deployment Technician, January 2021 - August 2021',
         link:``,
       },
+      {
+        name: 'Sierra Wireless',
+        description: 'Manufacturing Test Engineer, September 2023 - Present',
+        link:``,
+      },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
@@ -55,7 +67,7 @@ module.exports = {
       },
       {
         name: 'Hardware',
-        description: `Soldering, PCB Board assembly, FPGAs, DMMs, Power Supplies, Oscilloscopes, Function Generators, Breadboard, Sensors, Raspberry Pi, Nvidia Jetson Nano`,
+        description: `Soldering, PCB Board assembly, FPGAs, DMMs, Power Supplies, Oscilloscopes, Function Generators, Breadboard, Sensors, Raspberry Pi, Nvidia Jetson Nano, CMW100, CMW500`,
         link:``,
       },
       {
